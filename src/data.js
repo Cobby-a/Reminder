@@ -4,35 +4,41 @@ import luna from "../src/Assets/Images/luna.jpg"
 import rex from "../src/Assets/Images/rex.jpg"
 import vee from "../src/Assets/Images/vee.jpg"
 
-export const data = (
+export const data = [
     {
         id: 1,
         name: "Rexford Brefo",
         age: 21,
-        image: {rex}
+        pic: rex
     },
     {
         id: 2,
         name: "Valerie Ofori",
         age: 21,
-        image: {vee}
+        pic: vee
     },
     {
         id: 3,
         name: "Adu Boat",
         age: 20,
-        image: {adu}
+        pic: adu
     },
     {
         id: 4,
-        name: "Luna",
-        age: 19,
-        image: {luna}
+        name: "Melody",
+        age: 26,
+        pic: "https://theviraler.com/wp-content/uploads/2021/11/60-hot-pictures-of-reign-edwards-that-are-sure-to-make-you-her-biggest-fan-best-of-comic-books-39.jpg"
     },
     {
         id: 5,
+        name: "Luna",
+        age: 19,
+        pic: luna
+    },
+    {
+        id: 6,
         name: "David",
         age: 18,
-        image: {david}
+        pic: david
     }
-)
+]
