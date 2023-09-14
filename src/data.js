@@ -4,7 +4,7 @@ import luna from "../src/Assets/Images/luna.jpg"
 import rex from "../src/Assets/Images/rex.jpg"
 import vee from "../src/Assets/Images/vee.jpg"
 
-export  const data = (
+export const data = (
     {
         id: 1,
         name: "Rexford Brefo",
