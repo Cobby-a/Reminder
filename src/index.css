@@ -19,18 +19,23 @@ img{
   object-fit: cover;
   box-shadow: 0 8px 20px #d8d6d6;
 }
+p{
+  color: hsl(210, 22%, 49%);
+  margin-top: 0.2rem;
+}
 h3{
-  font-size: 1.75;
+  font-size: 1.75rem;
 }
 h4{
-  font-size: 0.875;
+  font-size: 0.875rem;
 }
 h4{
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.07rem;
 }
 h3{
   font-weight: normal;
   line-height: 1;
+  margin-bottom: 1rem;
 }
 @media screen and (min-width: 800px){
   h3{
@@ -56,13 +61,22 @@ section{
   margin: 4rem 0;
   padding: 1.5rem 2rem;
 }
-article{
+.person{
   display: grid;
   grid-template-columns: auto 1fr;
+  
   column-gap: 1rem;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   align-items: center;
 }
+article{
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
+  align-items:center;
+  column-gap: 2rem;
+  justify-content:space-between;
+}
+
 .btn{
   border: transparent;
   font-size: 1.2rem;
@@ -75,6 +89,7 @@ article{
   color: #FFFFFF;
   letter-spacing: 0.1rem;
 }
+
 .btn:hover{
   transform: scale(1.1);
 }
