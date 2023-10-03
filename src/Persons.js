@@ -10,9 +10,14 @@ const Persons = ({people}) => {
     const clear = () =>{
         setPersons([]);
       }
+    
+    let w = "birthdays"
+    if(persons.length === 1){
+        w = "birthday"
+    }
     return(
         <section>
-        <h3>{persons.length} birthdays today</h3>
+        <h3>{persons.length} {w} today</h3>
         {persons.map((person)=>{
             const {id, pic, name, age} = person
             return(
